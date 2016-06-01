@@ -26,87 +26,81 @@
       <sourceFolder url="file://$MODULE_DIR$/src/java/test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/java/systest" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library name="slf4j-api-1.6.1.jar">
+    <orderEntry type="module-library">
+      <library name="JUnit4">
         <CLASSES>
-          <root url="file:///root/.ant/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.1.jar" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="slf4j-log4j12-1.6.1.jar">
-        <CLASSES>
-          <root url="file:///root/.ant/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.6.1.jar" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="log4j-1.2.16.jar">
-        <CLASSES>
-          <root url="file:///root/.ant/cache/log4j/log4j/bundles/log4j-1.2.16.jar" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="jline-0.9.94.jar">
-        <CLASSES>
-          <root url="file:///root/.ant/cache/jline/jline/jars/jline-0.9.94.jar" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library name="netty-3.7.0.Final.jar">
-        <CLASSES>
-          <root url="file:///root/.ant/cache/io.netty/netty/jars/netty-3.7.0.Final.jar" />
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="junit-4.8.1.jar">
+      <library>
         <CLASSES>
-          <root url="file:///root/.ant/cache/junit/junit/jars/junit-4.8.1.jar" />
+          <root url="jar://$MODULE_DIR$/build/lib/jline-0.9.94.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="mockito-all-1.8.2.jar">
+      <library>
         <CLASSES>
-          <root url="file:///root/.ant/cache/org.mockito/mockito-all/jars/mockito-all-1.8.2.jar" />
+          <root url="jar://$MODULE_DIR$/build/lib/log4j-1.2.16.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="checkstyle-5.0.jar">
+      <library>
         <CLASSES>
-          <root url="file:///root/.ant/cache/checkstyle/checkstyle/jars/checkstyle-5.0.jar" />
+          <root url="jar://$MODULE_DIR$/build/lib/netty-3.7.0.Final.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="commons-collections-3.2.2.jar">
+      <library>
         <CLASSES>
-          <root url="file:///root/.ant/cache/commons-collections/commons-collections/jars/commons-collections-3.2.2.jar" />
+          <root url="jar://$MODULE_DIR$/build/lib/slf4j-api-1.6.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/build/lib/slf4j-log4j12-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/build/test/lib/antlr-2.7.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/test/lib/checkstyle-5.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/test/lib/commons-beanutils-core-1.7.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/test/lib/commons-cli-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/test/lib/commons-collections-3.2.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/test/lib/commons-lang-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/test/lib/commons-logging-1.0.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/test/lib/google-collections-0.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/test/lib/junit-4.8.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/build/test/lib/mockito-all-1.8.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/build/test/lib/mockito-all-1.8.2.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
